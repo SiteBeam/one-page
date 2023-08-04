@@ -1,0 +1,87 @@
+/*variables*/
+$color-1: #FFE58F;
+$color-2: #7B2509;
+$color-3: #C39F3C;
+$color-4: #691902;
+$fondo-principal: $color-1;
+$texto-principal: $color-2;
+$fondo-secundario: $color-2;
+$texto-secundario: $color-1;
+$fondo-terciario: $color-3;
+$texto-terciario: $color-4;
+$titulo: 'Kaushan Script', cursive !important;
+$texto: 'Caudex', serif;
+/*variables*/
+body{
+    background-color:$fondo-principal;
+    font-family: $texto;
+    color: $texto-principal;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: $titulo;
+    font-weight: bold;
+}
+#navEnlaces{
+    li{
+        list-style: none;
+        a{
+            text-decoration: none;
+        }
+    }
+}
+.btn-tema{
+    background-color: $fondo-secundario;
+    color: $texto-secundario;
+    border: none;
+}
+.btn-tema:hover{
+    background-color: $color-4;
+}
+.text-tema{
+    color: $texto-principal;
+}
+.navbar-brand{
+    font-family: $titulo;
+    color: $color-2;
+    font-weight: bold;
+}
+.hero{
+    border-radius: 61% 39% 79% 21% / 30% 27% 73% 70%;
+    -webkit-border-radius: 61% 39% 79% 21% / 30% 27% 73% 70%;
+    -moz-border-radius: 61% 39% 79% 21% / 30% 27% 73% 70%;
+    -ms-border-radius: 61% 39% 79% 21% / 30% 27% 73% 70%;
+    -o-border-radius: 61% 39% 79% 21% / 30% 27% 73% 70%;
+}
+.text-hero{
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+#nosotros{
+    background-color: $fondo-secundario;
+    color: $texto-secundario;
+}
+.bg-secundario{
+    background-color: $fondo-terciario;
+    color: $texto-terciario;
+}
+.img-vertical{
+    border-radius: 61% 39% 36% 64% / 77% 27% 73% 23%;
+    -webkit-border-radius: 61% 39% 36% 64% / 77% 27% 73% 23%;
+    -moz-border-radius: 61% 39% 36% 64% / 77% 27% 73% 23%;
+    -ms-border-radius: 61% 39% 36% 64% / 77% 27% 73% 23%;
+    -o-border-radius: 61% 39% 36% 64% / 77% 27% 73% 23%;
+}
+.img-horizontal{
+    height: 40%;
+    object-fit: cover;
+    border-radius: 25% 75% 28% 72% / 60% 76% 24% 40%;
+    -webkit-border-radius: 25% 75% 28% 72% / 60% 76% 24% 40%;
+    -moz-border-radius: 25% 75% 28% 72% / 60% 76% 24% 40%;
+    -ms-border-radius: 25% 75% 28% 72% / 60% 76% 24% 40%;
+    -o-border-radius: 25% 75% 28% 72% / 60% 76% 24% 40%;
+}
+@media (max-width: 768px) {
+    .text-hero{
+        font-size: 2.5rem;
+    }
+}
